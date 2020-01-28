@@ -1,0 +1,43 @@
+* {
+    background-color: black;
+    color: #ff8b00;
+    font-family: 'Lucida Console';
+}
+
+header {
+    width: 100%;
+}
+
+#content {
+    display:flex;
+}
+
+aside, main {
+    height: 100vh;
+    width: 50vw;
+    border: 5px groove #ff8b00; 
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+ul {
+    padding-left: 0;
+}
+
+.members-li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.highlight-p {
+    background-color: #ff8b00;
+    color: black;
+    width: 100%;
+}
+
+
+.highlight {
+    background-color: #eb950c;
+    color: black;
+}
+
